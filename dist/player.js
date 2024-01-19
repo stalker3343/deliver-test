@@ -41949,6 +41949,7 @@
       console.info("Start to request ad");
       const adsRequest = new window.google.ima.AdsRequest();
       adsRequest.adTagUrl = adTagUrl;
+      console.log("some lo");
       this.adsLoader.requestAds(adsRequest);
     }
   };
