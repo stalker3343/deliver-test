@@ -1,0 +1,95 @@
+/* widget/src/index.css */
+.ty-project-rc-tooltip {
+  position: absolute;
+  z-index: 40;
+  display: block;
+  visibility: visible;
+  box-sizing: border-box;
+  padding: 0px !important;
+  background-color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  z-index: 1200;
+}
+.ty-project-rc-tooltip-hidden {
+  display: none;
+}
+.ty-project-rc-tooltip-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+.ty-project-rc-tooltip-placement-top .ty-project-rc-tooltip-arrow,
+.ty-project-rc-tooltip-placement-topLeft .ty-project-rc-tooltip-arrow,
+.ty-project-rc-tooltip-placement-topRight .ty-project-rc-tooltip-arrow {
+  bottom: -5px !important;
+  margin-left: -5px;
+  border-width: 5px 5px 0;
+  border-top-color: white;
+}
+.ty-project-rc-tooltip-placement-right .ty-project-rc-tooltip-arrow {
+  top: 50%;
+}
+.ty-project-rc-tooltip-placement-rightTop .ty-project-rc-tooltip-arrow {
+  top: 15%;
+  margin-top: 0;
+}
+.ty-project-rc-tooltip-placement-rightBottom .ty-project-rc-tooltip-arrow {
+  bottom: 15%;
+}
+.ty-project-rc-tooltip-placement-left .ty-project-rc-tooltip-arrow,
+.ty-project-rc-tooltip-placement-leftTop .ty-project-rc-tooltip-arrow,
+.ty-project-rc-tooltip-placement-leftBottom .ty-project-rc-tooltip-arrow {
+  right: -5px !important;
+  margin-top: -5px;
+  border-width: 5px 0 5px 5px;
+  border-left-color: white;
+}
+.ty-project-rc-tooltip-placement-left .ty-project-rc-tooltip-arrow {
+  top: 50%;
+}
+.ty-project-rc-tooltip-placement-leftTop .ty-project-rc-tooltip-arrow {
+  top: 15%;
+  margin-top: 0;
+}
+.ty-project-rc-tooltip-placement-leftBottom .ty-project-rc-tooltip-arrow {
+  bottom: 15%;
+}
+.ty-project-rc-tooltip-placement-right .ty-project-rc-tooltip-arrow,
+.ty-project-rc-tooltip-placement-rightTop .ty-project-rc-tooltip-arrow,
+.ty-project-rc-tooltip-placement-rightBottom .ty-project-rc-tooltip-arrow {
+  left: -5px !important;
+  margin-top: -5px;
+  border-width: 5px 0 5px 5px;
+  border-left-color: white;
+  transform: rotate(180deg);
+}
+.ty-project-rc-tooltip-placement-right .ty-project-rc-tooltip-arrow {
+  top: 50%;
+}
+.ty-project-rc-tooltip-placement-rightTop .ty-project-rc-tooltip-arrow {
+  top: 15%;
+  margin-top: 0;
+}
+.ty-project-rc-tooltip-placement-rightBottom .ty-project-rc-tooltip-arrow {
+  bottom: 15%;
+}
+.ty-project-rc-tooltip-placement-bottom .ty-project-rc-tooltip-arrow,
+.ty-project-rc-tooltip-placement-bottomLeft .ty-project-rc-tooltip-arrow,
+.ty-project-rc-tooltip-placement-bottomRight .ty-project-rc-tooltip-arrow {
+  top: -5px !important;
+  margin-left: -5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: white;
+}
+.ty-project-rc-tooltip-placement-bottom .ty-project-rc-tooltip-arrow {
+  left: 50%;
+}
+.ty-project-rc-tooltip-placement-bottomLeft .ty-project-rc-tooltip-arrow {
+  left: 15%;
+}
+.ty-project-rc-tooltip-placement-bottomRight .ty-project-rc-tooltip-arrow {
+  right: 15%;
+}
