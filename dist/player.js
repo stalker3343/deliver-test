@@ -332,6 +332,7 @@ Arguments: `+Array.prototype.slice.call(p).join("")+`
     margin-top: 15px;
 `;var Wi=H(Z());var P5=$.div`
   width: 100%;
+  min-width: 200px;
   height: 4px;
   border-radius: 5px;
   overflow: hidden;
