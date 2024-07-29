@@ -338,6 +338,9 @@ Arguments: `+Array.prototype.slice.call(p).join("")+`
   width: 100%;
   min-width: 200px;
   text-align: center;
+  @media (max-width: 600px) {
+    text-align: start;
+  }
 `,_5=$.div`
   margin-top: 20px;
   @media (max-width: 600px) {
