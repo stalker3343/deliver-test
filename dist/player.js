@@ -832,7 +832,7 @@ html body {
   & > :first-child {
     padding-left: ${({isPlay:e})=>e?"0px":"4px"};
   }
-`;var pu=(0,mi.memo)(({size:e,sizeInside:t,sizeOutside:r,iconSize:n})=>{let{play:o,isPlay:a,playerOptions:s,isLoading:u,isShowAdNow:f}=Re(),{color:d}=s;return mi.default.createElement(b6,null,mi.default.createElement(A6,{onClick:o,color:d,className:a||u?"active":"inactive",size:e,sizeOutside:r,loading:u,isShowAdNow:f},mi.default.createElement(O6,{color:d,isPlay:a,sizeInside:t},a?mi.default.createElement(ve,{name:"TYPlayerPause",iconHeight:n-2,iconWidth:n-4,color:d}):mi.default.createElement(ve,{name:"TYPlayerPlay",iconHeight:n,iconWidth:n,color:d}))))});pu.displayName="PlayBtn";var mu=j(q());var M6=H.div.attrs(e=>({...e}))`
+`;var pu=(0,mi.memo)(({size:e,sizeInside:t,sizeOutside:r,iconSize:n})=>{let{play:o,isPlay:a,playerOptions:s,isLoading:u,isShowAdNow:f}=Re(),{color:d}=s;return mi.default.createElement(b6,null,mi.default.createElement(A6,{onClick:o,color:d,className:a||u?"active":"inactive",size:e,sizeOutside:r,loading:u,isShowAdNow:f,id:"playButton"},mi.default.createElement(O6,{color:d,isPlay:a,sizeInside:t},a?mi.default.createElement(ve,{name:"TYPlayerPause",iconHeight:n-2,iconWidth:n-4,color:d}):mi.default.createElement(ve,{name:"TYPlayerPlay",iconHeight:n,iconWidth:n,color:d}))))});pu.displayName="PlayBtn";var mu=j(q());var M6=H.div.attrs(e=>({...e}))`
   cursor: pointer;
   border: none;
   background: transparent;
